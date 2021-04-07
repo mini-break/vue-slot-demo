@@ -3,7 +3,7 @@
 
     <h3>这里是子组件</h3>
 
-    <slot  :data="data"></slot>
+    <slot  :data="data1"></slot>
   </div>
 </template>
 
@@ -11,7 +11,7 @@
   export default {
       data: function(){
         return {
-          data: ['zhangsan','lisi','wanwu','zhaoliu','tianqi','xiaoba']
+          data1: ['zhangsan','lisi','wanwu','zhaoliu','tianqi','xiaoba']
         }
       },
     computed: {
